@@ -15,7 +15,7 @@ For newbies who just start to join in this world please consider to read careful
 ## Release notes
 
 
-**Version 1.7.6**
+**Version 1.7.6 (Latest)**
 - _Release Features_:
     + Feature #1: [Sales] Allow followers of a contact to create quotation, opportunity for that contact.
     + Feature #2: [Sales] [Accounting] Allow fixed value discount for line item
@@ -29,17 +29,24 @@ For newbies who just start to join in this world please consider to read careful
  
 ### Older notes
 ```markdown
-**Version 1.7.6**
+**Version 1.7.5**
 - _Release Features_:
-    + Feature #1: [Sales] Allow followers of a contact to create quotation, opportunity for that contact.
-    + Feature #2: [Sales] [Accounting] Allow fixed value discount for line item
-- _Enhancements_:
-    + Enhancement #1: [All] Allow to search regardless of non-Vietnamese characters for searching or Vietnamese characters.
-          For example, when we search for the word "nam", the result should return records with value "nam", "nấm", "năm", "nằm",...
-    + Enhancement #2: [Sales] [Accounting] Show symbol "%" in order lines which discount is set to by percent
-    + Enhancement #3: [Sales] [Accounting] Changing quantity in order line will not automatically update the unit price
+    + Feature #1: [Sales] Allow Profile _"Administration"_ to access Lead/Opportunities
  - _Fixes_:
-    + Fix #1: [Accounting] Fix error when calculating total discount in Contract export file 
+    + Fix #1: [Sales] Hide button "Edit" and "Follow", hide Conversation sesson on contact to prevent unauthorized action from non-owner 
+
+**Version 1.7.4**
+- _Release Features_:
+    + Feature #1: [All] Allow everyone to see all customers's basic information
+ - _Fixes_:
+    + Fix #1: [System] Fix error of revenue in Tasks were not updated automatically.
+
+**Version 1.7.3**
+- _Enhancements_:
+    + Enhancement #1: [All] Adding Salesperson and Sales Team field to Report Task
+ - _Fixes_:
+    + Fix #1: [System] Fix error of revenue in Tasks are not equal to revenue in SO.
+    
  ```
 ### Support or Contact
 
