@@ -1,6 +1,6 @@
 ## Welcome to ERP Webtretho world
 
-Here place where we release notes about new features, fixes, workarounds or notifications. 
+Here's the place where we release notes about new features, fixes, workarounds or notifications. 
 Hope this can help you to keep updated!
 
 ### Documents
