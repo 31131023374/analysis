@@ -1,15 +1,18 @@
-## Welcome to GitHub Pages
+## Welcome to ERP Webtretho world
 
-You can use the [editor on GitHub](https://github.com/erpwtt/erp/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Here place where we release notes about new features, fixes, workarounds or notifications. 
+Hope this can help you to keep updated!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Documents
 
-### Markdown
+For newbies who just start to join in this world please consider to read carefully the document we made for your business function. 
+- [Salesperson](https://github.com/erpwtt/ERP-Webtretho/blob/master/WTT%20ERP%20User%20Guide%20-%20For%20Salesperson.docx?raw=true) 
+- [Sales Lead](https://github.com/erpwtt/ERP-Webtretho/blob/master/WTT%20ERP%20User%20Guide%20-%20For%20Sales%20Lead.docx?raw=true)
+- [Accounting](https://github.com/erpwtt/ERP-Webtretho/blob/master/WTT%20ERP%20User%20Guide%20-%20For%20Accounting.docx?raw=true)
+- [Campaign Executive](https://github.com/erpwtt/ERP-Webtretho/blob/master/WTT%20ERP%20User%20Guide%20-%20For%20Campaign%20Executive.docx?raw=true) 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+### Release notes
 ```markdown
-Syntax highlighted code block
 
 # Header 1
 ## Header 2
