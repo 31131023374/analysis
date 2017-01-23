@@ -32,19 +32,19 @@ For newbies who just start to join in this world please consider to read careful
 **Version 1.7.5**
 - Release Features:
     + Feature #1: [Sales] Allow Profile "Administration" to access Lead/Opportunities
- - Fixes:
+- Fixes:
     + Fix #1: [Sales] Hide button "Edit" and "Follow", hide Conversation sesson on contact to prevent unauthorized action from non-owner 
 
 **Version 1.7.4**
 - _Release Features_:
     + Feature #1: [All] Allow everyone to see all customers's basic information
- - _Fixes_:
+- _Fixes_:
     + Fix #1: [System] Fix error of revenue in Tasks were not updated automatically.
 
 **Version 1.7.3**
 - _Enhancements_:
     + Enhancement #1: [All] Adding Salesperson and Sales Team field to Report Task
- - _Fixes_:
+- _Fixes_:
     + Fix #1: [System] Fix error of revenue in Tasks are not equal to revenue in SO.
     
  
