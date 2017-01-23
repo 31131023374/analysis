@@ -46,8 +46,13 @@ For newbies who just start to join in this world please consider to read careful
     + Enhancement #1: [All] Adding Salesperson and Sales Team field to Report Task
 - _Fixes_:
     + Fix #1: [System] Fix error of revenue in Tasks are not equal to revenue in SO.
-    
- 
+
+**Version 1.7.2**
+- _Release Features_:
+    + Feature #1: [All] Allow follower of a SO to: 
+        Read this SO, SO's project, task, invoice by Sale menu
+        Send message, Log internal note in SO, Project, Task, Invoice
+
 ## Support or Contact
 
 Having trouble with ERP? [contact support](mailto:erpwtt@webtretho.com) and we’ll help you sort it out.
