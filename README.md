@@ -16,10 +16,10 @@ For newbies who just start to join in this world please consider to read careful
 ```markdown
 
 **Version 1.7.6**
- - _Release Features_:
+- _Release Features_:
     + Feature #1: [Sales] Allow followers of a contact to create quotation, opportunity for that contact.
     + Feature #2: [Sales] [Accounting] Allow fixed value discount for line item
- - _Enhancements_:
+- _Enhancements_:
     + Enhancement #1: [All] Allow to search regardless of non-Vietnamese characters for searching or Vietnamese characters.
           For example, when we search for the word "nam", the result should return records with value "nam", "nấm", "năm", "nằm",...
     + Enhancement #2: [Sales] [Accounting] Show symbol "%" in order lines which discount is set to by percent
@@ -27,7 +27,7 @@ For newbies who just start to join in this world please consider to read careful
  - _Fixes_:
     + Fix #1: [Accounting] Fix error when calculating total discount in Contract export file 
  
- 
+``` 
 ### Support or Contact
 
 Having trouble with ERP? [contact support](mailto:erpwtt@webtretho.com) and we’ll help you sort it out.
