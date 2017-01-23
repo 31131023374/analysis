@@ -28,7 +28,7 @@ For newbies who just start to join in this world please consider to read careful
     + Fix #1: [Accounting] Fix error when calculating total discount in Contract export file 
  
 ### Older notes
-```markdown
+
 **Version 1.7.5**
 - Release Features:
     + Feature #1: [Sales] Allow Profile "Administration" to access Lead/Opportunities
@@ -47,7 +47,7 @@ For newbies who just start to join in this world please consider to read careful
  - _Fixes_:
     + Fix #1: [System] Fix error of revenue in Tasks are not equal to revenue in SO.
     
- ```
-### Support or Contact
+ 
+## Support or Contact
 
 Having trouble with ERP? [contact support](mailto:erpwtt@webtretho.com) and we’ll help you sort it out.
