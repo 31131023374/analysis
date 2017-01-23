@@ -30,9 +30,9 @@ For newbies who just start to join in this world please consider to read careful
 ### Older notes
 ```markdown
 **Version 1.7.5**
-- _Release Features_:
-    + Feature #1: [Sales] Allow Profile _"Administration"_ to access Lead/Opportunities
- - _Fixes_:
+- Release Features:
+    + Feature #1: [Sales] Allow Profile "Administration" to access Lead/Opportunities
+ - Fixes:
     + Fix #1: [Sales] Hide button "Edit" and "Follow", hide Conversation sesson on contact to prevent unauthorized action from non-owner 
 
 **Version 1.7.4**
