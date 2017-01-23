@@ -1,4 +1,4 @@
-## Welcome to ERP Webtretho world
+# Welcome to ERP Webtretho world
 
 Here's the place where we release notes about new features, fixes, workarounds or notifications. 
 Hope this can help you to keep updated!
@@ -50,8 +50,25 @@ For newbies who just start to join in this world please consider to read careful
 **Version 1.7.2**
 - _Release Features_:
     + Feature #1: [All] Allow follower of a SO to: 
-        Read this SO, SO's project, task, invoice by Sale menu
-        Send message, Log internal note in SO, Project, Task, Invoice
+        + Read this SO, SO's project, task, invoice by Sale menu
+        + Send message, Log internal note in SO, Project, Task, Invoice
+
+**Version 1.7.1**
+- _Release Features_: 
+    + Feature #1: [Accounting] Creating Contract form for sale order and quotation, can be downloaded as an excel file
+- _Fixes_:
+    + Fix #1: [All] Prevent auto add customer to follower in Lead, Quotation, SO, Project, Task, Invoice, Payment etc..
+
+**Version 1.7**
+- _Release Features_: 
+    + Feature #1: Allow to cancel an uncompleted Invoice.
+    + Feature #2: Display Total Untaxed Amount field on SO List View
+- _Enhancements_:
+    + Enhancement #1: Remove customer title when composing New message/log
+    + Enhancement #2: Not auto add customer to followers list of SO.
+- _Fixes_ :
+    + Fix #1: Fix error of Sale Order status does not change correctly to "fully invoice" when using invoice down payment option
+
 
 ## Support or Contact
 
