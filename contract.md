@@ -33,7 +33,7 @@ At footer of table, show
 #Status: 
 New - Doing - Done - Canceled 
 
-#Buttons in Headline:
+#Buttons in Header line:
 - Create SO
 - Cancel
 - Set to Done
