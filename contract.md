@@ -60,7 +60,7 @@ The same rules as Sales Order:
   + Others: permission as a follower
 
 #Create Sales Order from Contract
-- Information to be transfer:
+- Information to be transfered:
   + Customer          
   + Order Date       
   + Pricelist         
