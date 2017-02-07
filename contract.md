@@ -1,5 +1,5 @@
 
-#Main Information:
+## Main Information:
 - Contract ID       (R)
 - Customer          (R)
 - Order Date        (R)
@@ -15,7 +15,7 @@
 (O): Optional
 (R): Required
 
-#Tab Contract line:
+## Tab Contract line:
   Each line is a sales order linked to current contract, including following fields:
 - SO ID
 - Order Date
@@ -30,26 +30,30 @@
 At footer of table, show 
 - Cumulative total (sum of all Total with taxes)
 - Remain Value = Min Value - Cumulative total.
-
-#Tab Other Information
-- Salesperson (O)
+ 
+## Tab Other Information
+- Salesperson (R)
 - Sales Team  (O)
 - Company     (O)
 - Tags        (O)
 
-#Status: 
-New - Doing - Done - Canceled 
+## Status: 
+Draft -> In-Progress -> Done -> Canceled
 
-#Buttons in Header line:
-- Create SO
+- Status is set to In-Progress when contract is confirm (only by profile Adminnistration)
+- Status is set to Done when Cumulative Total >= Min Value
+
+## Buttons in Header line:
+- Create SO (only show when status is In-Progress)
+- Confirm
 - Cancel
 - Set to Done
 
-#In SO view
+## In SO view
 
 Also add a new field, Contract, for user to choose and view linked contract. 
 
-#Permission:
+## Permission:
 The same rules as Sales Order:
 - Administration profile has full permission
 - Owner of Contract is salesperson set to Salesperson field. 
@@ -59,11 +63,8 @@ The same rules as Sales Order:
 - Follower can:
   + Read contract and all its sales orders
   + Create sales orders from contract
-- Open contracts: contracts are not set salesperson
-  + Administration profile: Full permission
-  + Others: permission as a follower
 
-#Create Sales Order from Contract
+## Create Sales Order from Contract
 - Information to be transfered:
   + Customer          
   + Order Date       
@@ -74,5 +75,5 @@ The same rules as Sales Order:
 - Constraints:
   + Sales person of sales order is set to current user
   + Owner of Contract is always set as follower of sales order
-  + Check if total with taxes of SO is bigger than Remain Value, if yes, force user to confirm before creating
+  + Check if total with taxes of SO is bigger than Remain Value, if yes, force user to confirm (by OK/Cancel message box) before creating
   
