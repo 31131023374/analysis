@@ -45,13 +45,17 @@ New - Doing - Done - Canceled
 - Cancel
 - Set to Done
 
+#In SO view
+
+Also add a new field, Contract, for user to choose and view linked contract. 
+
 #Permission:
 The same rules as Sales Order:
 - Administration profile has full permission
 - Owner of Contract is salesperson set to Salesperson field. 
   + Can read, edit, cancel, set to done  
   + Create sales orders from contract
-  + Set/Delete followers
+  + Add/Remove followers
 - Follower can:
   + Read contract and all its sales orders
   + Create sales orders from contract
