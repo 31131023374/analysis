@@ -41,7 +41,7 @@ At footer of table, show
 Draft -> In-Progress -> Done -> Canceled
 
 - Status is set to In-Progress when contract is confirmed (only by profile Adminnistration)
-- Status is set to Done when Cumulative Total >= Min Value
+- Status is set to Done when Cumulative Total >= Min Value (by profile Adminnistration or Contract Owner)
 
 ## Buttons in Header line:
 - Create SO (only show when status is In-Progress)
