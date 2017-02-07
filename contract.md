@@ -1,19 +1,19 @@
 
 #Main Information:
-- Contract ID       [R]
-- Customer          [R]
-- Order Date        [R]
-- Pricelist         [O]
-- Start Date        [O]
-- End Date          [O]
-- Industry Sector   [O]
-- Brand(s)          [O]
-- Min value         [R]
-- Max value         [O]
-- Discount Benefit (percent and fixed amount) [O]
+- Contract ID       (R)
+- Customer          (R)
+- Order Date        (R)
+- Pricelist         (O)
+- Start Date        (O)
+- End Date          (O)
+- Industry Sector   (O)
+- Brand(s)          (O)
+- Min value         (R)
+- Max value         (O)
+- Discount Benefit (percent and fixed amount) (O)
 
-[O]: Optional
-[R]: Required
+(O): Optional
+(R): Required
 
 #Tab Contract line:
   Each line is a sales order linked to current contract, including following fields:
@@ -32,10 +32,10 @@ At footer of table, show
 - Remain Value = Min Value - Cumulative total.
 
 #Tab Other Information
-- Salesperson [O]
-- Sales Team  [O]
-- Company     [O]
-- Tags        [O]
+- Salesperson (O)
+- Sales Team  (O)
+- Company     (O)
+- Tags        (O)
 
 #Status: 
 New - Doing - Done - Canceled 
