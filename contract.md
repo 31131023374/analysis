@@ -33,14 +33,14 @@ At footer of table, show
  
 ## Tab Other Information
 - Salesperson (R)
-- Sales Team  (O)
+- Sales Team  (R)
 - Company     (O)
 - Tags        (O)
 
 ## Status: 
 Draft -> In-Progress -> Done -> Canceled
 
-- Status is set to In-Progress when contract is confirm (only by profile Adminnistration)
+- Status is set to In-Progress when contract is confirmed (only by profile Adminnistration)
 - Status is set to Done when Cumulative Total >= Min Value
 
 ## Buttons in Header line:
