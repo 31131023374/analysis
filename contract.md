@@ -55,7 +55,7 @@ The same rules as Sales Order:
 - Follower can:
   + Read contract and all its sales orders
   + Create sales orders from contract
-- Open contracts: contracts not be set salesperson
+- Open contracts: contracts are not set salesperson
   + Administration profile: Full permission
   + Others: permission as a follower
 
@@ -66,9 +66,9 @@ The same rules as Sales Order:
   + Pricelist         
   + Industry Sector
   + Brand(s)         
-  + Discount Benefit
-- Constraint:
+  + Discount Benefit (only percent, not fixed amount)
+- Constraints:
   + Sales person of sales order is set to current user
   + Owner of Contract is always set as follower of sales order
-  + Check if total with taxes of SO is bigger than Remain Value, if yes, force user to confirm before create
+  + Check if total with taxes of SO is bigger than Remain Value, if yes, force user to confirm before creating
   
