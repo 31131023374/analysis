@@ -44,7 +44,8 @@ New - Doing - Done - Canceled
 - Create SO
 - Cancel
 - Set to Done
-#Permission
+
+#Permission:
 The same rules as Sales Order:
 - Administration profile has full permission
 - Owner of Contract is salesperson set to Salesperson field. 
