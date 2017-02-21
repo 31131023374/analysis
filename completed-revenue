@@ -1,0 +1,13 @@
+Adding new features to Project/Task Module:
+- In Task list ( list view style):
+  + Adding fields: Start Date, End Date
+  + Remove field: Working time progress
+  + Define new field: Completed Revenue
+- Add new custom filter: Running Date - RD ( with 2 value From date, To Date)
+- Terms:
+  + Revenue per day of Task - RpD: Total Revenue/ (End date - Start date + 1)
+  + Days of Task in duration: number of days of Task running in a specific period
+- Completed Revenue (CR)
+  + Without filter of RD: CR = RpD * (Current date - Start date + 1)
+  + With filter of RD: CR = RpD * Days of Task in Duration of RD
+       
