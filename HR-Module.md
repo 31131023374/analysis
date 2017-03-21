@@ -1,6 +1,8 @@
-## This is for Employee and Recruitment Function in HR Module
+## This description is for Employee and Recruitment Module in HR Dep
 
-1. Profile
+After testing with Employee and Recruitment Module of Odoo, below are adjustments, improvements and also the profile permission definition
+
+1. Profiles
  - HR Manager
  - HR Senior
  - HR Executive
