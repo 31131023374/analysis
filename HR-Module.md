@@ -27,7 +27,7 @@ Levels: HR Executive < HR Senior < HR Manager < Admin.
 
 The rules is that the higher level has the permissions the lower levels have + the permissions of its level. Profile Admin has full permission as default.
 
-  a) Employee module
+ a) Employee module
 - Department object:
     + HR Executive = HR Senior: View, Create
     + HR Manager: Edit, Delete
@@ -36,7 +36,8 @@ The rules is that the higher level has the permissions the lower levels have + t
     + HR Manager: Edit, Delete
 - Contract
     + HR Manager: View, Create, Edit, Delete
- b) Recruitment
+    
+b) Recruitment module
 - Job Position object:
      + HR Executive: View, Create
      + HR Senior: Edit, Delete
