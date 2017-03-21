@@ -7,9 +7,9 @@
 
 2. Employee module
  - Banking account number:  
-        - Allow HR to Create new; 
-        - When create new employee, Account holder is, by default the being-created employee (now only can choose from created employees)
-        - Account Holder: change it into text field
+    + Allow HR to Create new; 
+    + When create new employee, Account holder is, by default the being-created employee (now only can choose from created employees)
+    + Account Holder: change it into text field
  - Home Address: change it into text field.
 
 3/ Recruitment module
