@@ -10,10 +10,7 @@ After testing with Employee and Recruitment Module of Odoo, below are adjustment
 
 2. Employee module
  
- - Banking account number:  
-    + Allow HR to Create new; 
-    + When creating new employee, Account holder is, by default the being-created employee (now only can choose from created employees). If it's not available, please change it into text field.
- - Home Address: change it into text field.
+  - Home Address: change it into text field.
 
 3/ Recruitment module
 - Merge "Subject / Application Name" and "Applicant's Name" => "Applicant's Name"
