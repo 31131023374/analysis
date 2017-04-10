@@ -11,7 +11,8 @@ After testing with Employee and Recruitment Module of Odoo, below are adjustment
 2. Employee module
  
   - Home Address: change it into text field.
-
+  - When creating a new user, if user is linked to an employee which is already link to a partner, it's not needed to create a new partner for this user, and use the current partner insteads.
+  
 3/ Recruitment module
 - Merge "Subject / Application Name" and "Applicant's Name" => "Applicant's Name"
 - Remove "Contact" field
