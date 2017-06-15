@@ -4,9 +4,7 @@
  - Package to SO
  - Is Discountable to Product
 
-WTT 
-
-- 3 types: 
- - Package: using template
+WTT is using many discount policies to determine the discount percent for each Order lines of SO. These policies could be devided into 3 type: 
+ - Package: using a template SO to apply when creating SO. this template is also determined the fixed order lines with quantity and discount. 
  - Pre-signed contract: fixed percent for all order lines
  - Regular: using table of discount percent and SO total value
