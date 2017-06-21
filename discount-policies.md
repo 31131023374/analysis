@@ -9,6 +9,7 @@ Base on current system, here are new key functions
  - "Customer type" field in Contacts. 2 values: (default) "Agency", "Direct"
  - Package (template SO): add a new item in "Sales" Menu, above Contract. The package form is the same to So form but there is only one button in nav bar: "Create SO" (clone a new SO from this template SO). In the SO form, also add new field : "Package" to show linked package.
  - "Is discountable" field in Product. 2 values: True / False.
+ - At bottom of the form, show the description of discount "Discount from package [Name]" / "Discount from contracts [Percent]%" / "Discount for [Customer Type] with [Percent]%"
  
  Use case description: When creating new SO, user can choose 3 options:
  - If user picks a contract to link, use discount percent of the selected contract to apply. (Pre-signed type)
