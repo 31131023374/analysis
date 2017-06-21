@@ -11,12 +11,16 @@ Base on current system, here are new key functions
  - "Is discountable" field in Product. 2 values: True / False.
  
  Use case description: When creating new SO, user can choose 3 options:
- - If user picks a contract to link, use discount percent of the selected contract to apply.
- - If user picks a package to link, load all contents of the selected package to SO (overwrite).
- - If neither of above options are picked, the discount percent is re-calculated every times Order lines change base on Total and Customer type. Example table: 
+ - If user picks a contract to link, use discount percent of the selected contract to apply. (Pre-signed type)
+ - If user picks a package to link, load all contents of the selected package to SO (overwrite). (Package type)
+ - If neither of above options are picked, the discount percent is re-calculated every times Order lines change bases on Total and Customer type. Example table:  (Ordinary type)
   
 |Total   | Agency  | Direct  |
 |--------|---------|---------|
 |< 10M   |   15%   |   10%   |
 |   10M - 50M |   20% |  15% |
 | > 50M  | 25%  | 20%  |
+ 
+There is also some global rules:
+ - if the product is not "discountable", the discount is always 0%
+ - if the payment term is "Immediate Payment" and type is Ordinary, plus 5% discount percent to all. 
