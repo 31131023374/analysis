@@ -11,4 +11,4 @@ WTT is using many discount policies to determine the discount percent for each O
 
 Base on current system, here are new key functions
  - "Customer type" field in Contacts. 2 values: (default) "Agency", "Direct"
- - Package (template SO): add new item in Sales Menu, similar to SO form but there is only one button in nav bar: "Create SO" (clone a new SO from this template SO.
+ - Package (template SO): add a new item in Sales Menu, similar to SO. The So form is the same but there is only one button in nav bar: "Create SO" (clone a new SO from this template SO)
