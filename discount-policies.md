@@ -1,9 +1,9 @@
 ## WTT Discount policies
 
-WTT is using many discount policies to determine the discount percent for each Order lines of SO. These policies could be devided into 3 type: 
+WTT is using many discount policies to determine the discount percent for each Order lines of SO. These policies could be devided into 3 types: 
  - Package: using a template SO to apply when creating SO. this template is also determined the fixed order lines with quantity and discount percent. 
  - Pre-signed contract: fixed discount percent for all order lines of children SOs of the contract
- - Ordinary: bases on SO total value and the customer type to determine the discount percent (by indexing a table). The bigger value, the bigger discounnt.
+ - Ordinary: bases on SO total value and the customer type to determine the discount percent (by indexing a table). The bigger value, the bigger discount.
 
 Base on current system, here are new key functions
  - "Customer type" field in Contacts. 2 values: (default) "Agency", "Direct"
@@ -25,3 +25,4 @@ Base on current system, here are new key functions
 There is also some global rules:
  - if the product is not "discountable", the discount is always 0%
  - if the payment term is "Immediate Payment" and type is Ordinary, plus 5% discount percent to all. 
+ - only apply one discount type for each SO. So if contract field is selected, disable "Package" and vice versa
